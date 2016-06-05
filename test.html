@@ -4,99 +4,52 @@
   <link rel="stylesheet" href="style.css">
   <script src="scriptDragAndDrop.js"></script>
 </head>
-<body background="Images/granit_texture.jpg">
-  <p>Trashcan</p>
-  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="70" height="70" align="middle">
+<body>
+  <div id="body-container">
+    <p>Trashcan</p>
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img id="drag1" src="Images/Armor/FlackJacket.jpg" draggable="true" ondragstart="drag(event)" width="70" height="70" align="middle">
+    </div>
+    <br>
+
+    <div class="table-container">
+
+      <div class="gameboard">
+        <div></div>
+        <div class="leftright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="updown" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="middle" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="updown" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="leftright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      </div>
+      
+
+      <div class="gameboard">
+        <div></div>
+        <div class="leftright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="updown" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="middle" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="updown" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="leftright" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+      </div>
+      
+
+      <div class="gameboard">
+        <ul>
+          <li><label class="label-stats" for="Fuerza">FUERZA : </label></li>
+          <li><label class="label-stats" for="Agilidad">AGILIDAD : </label></li>
+          <li><label class="label-stats" for="Destreza">DESTREZA : </label></li>
+          <li><label class="label-stats" for="Constitucion">CONSTITUCION : </label></li>
+          <li><label class="label-stats" for="Percepcion">PERCEPCION : </label></li>
+          <li><label class="label-stats" for="Inteligencia">INTELIGENCIA : </label></li>
+          <li><label class="label-stats" for="Sabiduria">SABIDURIA : </label></li>
+          <li><label class="label-stats" for="Suerte">SUERTE : </label></li>
+        </ul>
+      </div>
+
+    </div>
   </div>
-  <br>
-  <table id="table1">
-    <tr>
-      <td>
-       <table id="table2" background="Images/base male.png">
-        <tr>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-          <td></td>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-          <td></td>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td style = "width:75px; height:75px;"></td>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-          <td style = "width:75px; height:75px;"></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-          <td></td>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-          <td></td>
-          <td id="td2" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-        </tr>
-      </table>
-    </td>
-    <td>
-      <table id="table2" display="block" >
-        <tr>
-         <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)">
-          <img id="FlackJacket" src="Images/Armor/FlackJacket.jpg" draggable="true" ondragstart="drag(event)" width="70" height="70" align="middle">
-        </td>
-        <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)">
-          <img id="GuardianVest" src="Images/Armor/GuardianVest.jpg" draggable="true" ondragstart="drag(event)" width="70" height="70" align="middle">
-        </td>
-        <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)">
-          <img id="KevlarVest" src="Images/Armor/KevlarVest.jpg" draggable="true" ondragstart="drag(event)" width="70" height="70" align="middle">
-        </td>
-        <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)">
-          <img id="SpectraVest" src="Images/Armor/SpectraVest.jpg" draggable="true" ondragstart="drag(event)" width="70" height="70" align="middle">
-        </td>
-        <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-      </tr>
-      <tr>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-     </tr>
-     <tr>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-     </tr>
-     <tr>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-     </tr>
-     <tr>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-       <td id="td1" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
-     </tr>
-   </table>
- </table>
 </body>
 </html>
