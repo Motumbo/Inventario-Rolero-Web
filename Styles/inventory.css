@@ -1,0 +1,72 @@
+body 
+{
+	background-color: #FAFAFA;
+}
+
+/*
+.disabled sobreescribe el border de .slot
+.trash sobreescribe el float de .slot
+.inv y .char podrian utilizarse en un futuro (sino se borran)
+*/
+
+.slot /*Slots activos*/
+{
+	width: 75px;
+	height: 75px;
+	border: 2px solid #AAAAAA;
+	margin: 2px;
+    float: left;
+}
+
+.disabled /*Espacios en blanco o slots inactivos*/
+{
+	border: 2px solid transparent;
+}
+
+.trash /*Trash can*/
+{
+	float: none;
+}
+
+.inv /*Slots del inventario (stash)*/
+{
+
+}
+
+.char /*Slots del personaje*/
+{
+	
+}
+
+.break /*Salto de linea para los grid de slots*/
+{
+	clear: left;
+}
+
+.table-container /*Div que contiene los gameboards (inventario, personaje y stats)*/
+{
+	overflow: auto;
+	background-image: url("Images/granit_texture.jpg");
+	margin: 5px;
+	padding: 5px;
+	border: 5px solid #BBAABB;
+}
+
+.body-container
+{
+	background-image: url("/Images/granit_texture.jpg");
+	padding: 5px;
+	border: 5px solid #AAAAAA;
+}
+
+.gameboard
+{
+    float: left;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.label-stats
+{
+	color: black;
+}

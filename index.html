@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Styles/inventory.css">
+  <script src="Scripts/scriptDragAndDrop.js"></script>
+</head>
+<body>
+  <div class="body-container">
+    <p>Trash Can</p>
+    <div class="slot trash" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img id="drag1" src="Images/Armor/FlackJacket.jpg" draggable="true" ondragstart="drag(event)" width="75" height="75" align="middle">
+    </div>
+    <br>
+
+    <div class="table-container">
+
+      <div id="inventory" class="gameboard">
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <div class="break slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <div class="break slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <div class="break slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <div class="break slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot inv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+      </div>
+
+      <div id="character" class="gameboard">
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+
+        <div class="break slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+
+        <div class="break slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+
+        <div class="break slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <div class="break slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+
+        <div class="break slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+
+        <div class="break slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <div class="break slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <div class="break slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+        <div class="slot char" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="slot char disabled"></div>
+      </div>
+
+      <div id="stats" class="gameboard">
+        <ul>
+          <li><label class="label-stats" for="Fuerza">FUERZA: </label></li>
+          <li><label class="label-stats" for="Agilidad">AGILIDAD: </label></li>
+          <li><label class="label-stats" for="Destreza">DESTREZA: </label></li>
+          <li><label class="label-stats" for="Constitucion">CONSTITUCION: </label></li>
+          <li><label class="label-stats" for="Percepcion">PERCEPCION: </label></li>
+          <li><label class="label-stats" for="Inteligencia">INTELIGENCIA: </label></li>
+          <li><label class="label-stats" for="Sabiduria">SABIDURIA: </label></li>
+          <li><label class="label-stats" for="Suerte">SUERTE: </label></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
