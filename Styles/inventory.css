@@ -38,6 +38,10 @@ body
 	
 }
 
+.div-fila {
+	clear: left;
+}
+
 .break /*Salto de linea para los grid de slots*/
 {
 	clear: left;
